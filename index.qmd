@@ -1,193 +1,111 @@
 ---
-title: "Computational Publishing / Linked Open Exhibitions Prototype "
-subtitle: "OA Week 2026"
-author: "Simon Worthington, Open Science Lab - TIB; HsH"
-date: today
-footer: "CC-BY-SA 4.0 License"
+title: "Linked Open Exhibitions"
+subtitle: "Dear curators — thanks for all the art?"
+author: "Simon Worthington, Open Science Lab - TIB and Hochschule&nbsp;Hannover, ORCID&nbsp;iD:&nbsp;0009&#8209;0007&#8209;1146&#8209;6745; Chloë Farr, Open&nbsp;Science&nbsp;Lab - TIB and University of Victoria, ORCID iD: 0009&#8209;0007&#8209;1146&#8209;6745" 
+date: 2026-11-10
+footer: "[simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | DOI:&nbsp;[10.5281/zenodo.24053970](https://doi.org/10.5281/zenodo.24053970) | [CC-BY-SA&nbsp;4.0&nbsp;License](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 
-## Context {.smaller}
+## A Homage to Winckelmann (1717-68) {.smaller}
 
-- Projects:
-  - [Computational Publishing Service](https://nfdi4culture.de/services/details/computational-publishing-service.html) (CPS) as part of [OSL Wikibase Data Services](https://service.tib.eu/wikibase-data)
-  - [ClimateKG](https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg) - A knowledge graph for climate science literature - initially launching with the IPCC Sixth Assessment Report (AR6) 
-
-Affiliations: Teaching Data Science in a GLAM context at University of the Applied Arts Hannover (HsH); R&D section Open Science Lab, service development - TIB; Carrying out research and service provision as parts of NFDI4Culture
-
-::: {style="text-align: center; margin-top: 20px;"}
-<div style="display: flex; justify-content: center; align-items: center; gap: 24px; flex-wrap: wrap;">
-  <img src="images/hsh-logo.png" title="HSH Logo" alt="HSH Logo" width="180"/>
-  <img src="images/tib-logo.png" title="TIB Logo" alt="TIB Logo" width="180"/>
-  <img src="images/nfdi4c-logo.jpg" title="NFDI4C Logo" alt="NFDI4C Logo" width="180"/>
-</div>
+::: {style="text-align: center;"}
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Joachim_Winckelmann_(Raphael_Mengs_after_1755).jpg" title="Johann Joachim Winckelmann" alt="Portrait of Johann Joachim Winckelmann, Anton Raphael Mengs, after 1755" height="460"/> 
 :::
-
----
-
-## Computational Publishing History {.smaller} 
-
-::: {style="text-align: center; margin-top: 16px;"}
-![Paul Otlet Mundaneum](https://imgix.bustle.com/inverse/32/90/5f/6c/e148/4f2d/bb71/6491d589be04/cmundaneum.jpeg?w=1200&h=630&fit=crop&crop=faces&fm=jpg){fig-alt="Paul Otlet portrait" width="70%"}
-:::
-
-Volunteers worked at the Universal Bibliographic Repertory, the project that grew into the Mundaneum (1905) 
 
 ::: aside
-\ Monoskop page for Paul Otlet: [https://monoskop.org/Paul_Otlet](https://monoskop.org/Paul_Otlet)
+Image credit: Anton Raphael Mengs (after 1755), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Johann_Joachim_Winckelmann_(Raphael_Mengs_after_1755).jpg) | Wikidata: [Q19905230](https://www.wikidata.org/wiki/Q19905230)
 :::
 
 ---
 
-## Paul Otlet - Mundaneum {.smaller}
+## A Public Record of Art in Exhibitions {.smaller}
+
+Deposit Linked Open Data in Wikidata  
+
+```{mermaid}
+%%| fig-align: center
+%%{init: {'flowchart': {'htmlLabels': false, 'padding': 140, 'nodeSpacing': 100, 'curve': 'linear'}, 'themeVariables': {'fontFamily': 'Futura, "Century Gothic", "Trebuchet MS", sans-serif'}}}%%
+flowchart LR
+  A(("&ensp;Work of Art&ensp;")):::red --> B(("&emsp;Part of&emsp;")):::yellow --> C(("&emsp;Exhibition &emsp;")):::blue
+  classDef red fill:#D62718,stroke:#000,stroke-width:8px,color:#fff,font-size:30px,font-weight:bold
+  classDef yellow fill:#F2C500,stroke:#000,stroke-width:8px,color:#000,font-size:30px,font-weight:bold
+  classDef blue fill:#1D4E9E,stroke:#000,stroke-width:8px,color:#fff,font-size:30px,font-weight:bold
+  linkStyle default stroke:#000,stroke-width:8px
+```
+
+::: {style="text-align: center; font-size: 0.8em;"}
+**Legend (CIDOC CRM):** E22 Human-Made Object | P19i forms part of | E7 Activity 
+:::
+
+---
+
+## A Typical Public Exhibition Record {.smaller} 
+
+::: {style="text-align: center;"}
+<img src="images/dnb.jpg" title="DNB" alt="DNB" style="max-width: 100%; max-height: 540px; width: auto; height: auto;"/>
+:::
+
+---
+
+## Link Open Exhibition Demo{.smaller}
 
 ::::: columns
 ::: {.column width="50%"}
-<img src="https://mediartinnovation.com/wp-content/uploads/2014/05/1934_otlet_documentation_800_c1.jpg" title="Paul Otlet sketch" alt="Paul Otlet sketch" width="200%"/>
-:::
-
-::: {.column width="30%"}
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/King%20Leopold%27s%20soliloquy.gif" title="King Leopold's Soliloquy cover" alt="King Leopold's Soliloquy first edition cover" width="140%"/>
-
-:::
-::::: 
-
-::: aside
-[Mundaneum](https://www.mundaneum.org/en) | Paul Otlet 1934 | Text of Twain: [King Leopold's Soliloquy (Project Gutenberg)](https://www.gutenberg.org/ebooks/62739) 1905 | Reworking by Elisabetta Benassi: King Leopold's Soliloquy - [Nero Editions](https://www.neroeditions.com/product/king-leopolds-soliloquy-by-mark-twain/) 2025, 978-88-97503-60-6 | Another look at a Knowledge Organization pioneer: traces of
-racism in Paul Otlet’s writings [HAL](https://hal.science/hal-04460850)
-::: 
-
----
-
-## CP History Continued {.smaller}
-
-::::: columns
-::: {.column width="50%"}
-#### Memex 1945
-<img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20Memex%20%283002477109%29.jpg" title="As We May Think illustration" alt="As We May Think illustration" width="45%"/>
-
-#### Dynabook 1973 
-<img src="https://collecard.net/wp/wp-content/uploads/2018/08/IL_DynabookConcept.jpg" title="Dynabook paper illustration" alt="Boy and girl illustration from the Dynabook paper" width="50%"/>
+#### John Baldessari: Exhibition Catalogue Sprengel Museum Hannover, 26.9.1999 - 2.1.2000
+<img src="images/baldessari.jpg" title="John Baldessari" alt="John Baldessari exhibition catalogue" width="100%"/>
 :::
 
 ::: {.column width="50%"}
-####  Xanadu 1960 
-<img src="https://proyectoidis.org/wp-content/uploads/1960/06/xanadu-.png" title="Project Xanadu" alt="Project Xanadu" width="50%"/>
-
-#### Semantic Web 1994
-<img src="https://image.slideserve.com/541904/tim-berners-lee-on-the-semantic-web-l.jpg" title="Tim Berners-Lee on the Semantic Web" alt="Tim Berners-Lee on the Semantic Web" width="50%"/>
-:::
-:::::
-
-::: aside
-Wikipedia: [Memex](https://en.wikipedia.org/wiki/Memex) | [Project Xanadu](https://en.wikipedia.org/wiki/Project_Xanadu) | [Dynabook](https://en.wikipedia.org/wiki/Dynabook) | [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web)
-:::
-
----
-
-## Open Scholarship Values and Infra {.smaller}
-
-::: {style="text-align: center;"}
-<img src="images/values.png" title="UNESCO Recommendation on Open Science" alt="UNESCO Recommendation on Open Science cover" width="65%"/>  
-:::
-
-::: aside
-Image credit: [UNESCO Recommendation on Open Science](https://unesdoc.unesco.org/ark:/48223/pf0000379949) pp17 
-:::
----
-
-## Open Scholarship Values and Infra {.smaller}
-
-::: {style="text-align: center;"}
-<img src="https://scoss.org/wp-content/uploads/2025/02/SCOSS-FAMILY-Feb-2025.png" title="SCOSS Family" alt="SCOSS Family" width="50%"/>
-:::
-
-Computational Publishing techstack: Jupyter Notebooks, Git, Quarto
-
-::: aside
-Image credit: SCOSS, [https://scoss.org/](https://scoss.org/) 
-:::
----
-
-## CP in Sciences and GLAM {.smaller}
-
-::: {style="text-align: center;"}
-CP as the exception and not the rule
-:::
-
-::::: columns
-::: {.column width="50%"}
-- **[TIB Knowledge Loom](https://knowledgeloom.tib.eu/) (reborn)**
-
-Digital library ORKG reborn
-<img src="https://www.tib.eu/fileadmin/_processed_/7/1/csm_DanceYourPhD2025_NoQR_0c041388fc.png" title="Dance Your PhD 2025" alt="Dance Your PhD 2025" width="55%"/>
-  
-:::
-
-::: {.column width="50%"}
-- **[Journal of Digital History](https://doi.org/10.1515/JDH-2021-1009?locatt=label:JDHFULL)** 
-
-Replicating the Kinora: 3D modelling and printing as heuristics in digital media history
-
-<img src="images/dighist.jpg" title="Journal of Digital History - Replicating the Kinora" alt="Replicating the Kinora video still" width="70%"/>
-  
+ - Artworks and exhibition are connected
+ - Mapped to CIDOC/AAT/Iconclass
+ - Loaded on to Wikibase/Wikidata
+ - Make publications or use on websites    
+ - Source can be:
+   - Database
+   - OCR
+   - Manual entry
 
 :::
 :::::
 
 ::: aside
-[Reborn article](https://www.nature.com/articles/s41597-025-04905-0) - Co-author Lauren Snyder: “[Dance your PhD](https://youtu.be/lM0OolYmD9c?si=XM7iyzT6UF_rL-FM)” | van der Heijden, T., & Wolf, C. (2022).[https://doi.org/10.1515/JDH-2021-1009?locatt=label:JDHFULL](https://doi.org/10.1515/JDH-2021-1009?locatt=label:JDHFULL)
-::: 
-
----
-
-## Thank You :-) {.smaller style="font-size: 0.7em;"}
-
----
-
-## Computational Publishing: Workshop Hands-on Session
-
-> <span style="color: red; font-size: 1.5em;">*</span> Prototype: Linked Open Exhibition
-
-Art exhibitions currently don't make public records of what artworks are displayed. The project aims to support curators in creating a linked open dataset of exhibition records and prouce data driven catalogue publications.  
-
----
-
-## Hands-on Session {.smaller}
-
-_Prototype:_ Convert data from an OCR scan of a catalogue of works by the artist John Baldessari shown in an art exhibition at the Sprengel Museum Hannover 26.9.1999 - 2.1.2000 into a data driven publication. 
-
-- Making Linked Open Data entries in Wikidata
-- Using Jupyter Notebooks
-- Data standards for art exhibitions
-- Publishing an exhibition catalogue
-
-::: aside
-Go here: [https://nfdi4culture.github.io/John-Baldessari-Exhibition-Catalogue/](https://nfdi4culture.github.io/John-Baldessari-Exhibition-Catalogue/)
-:::  
-
----
-
-## Workflow Schematic {.smaller}
-
-::: {style="text-align: center;"}
-<pre style="display: inline-block; text-align: left; background: transparent; border: none; box-shadow: none; margin: 0; padding: 0; font-size: 0.78em; line-height: 1.15; font-family: 'Courier New', Consolas, monospace;">
-+----------------+      +----------------+
-|      BOOK      |----->|      OCR       |
-+--------+-------+      +--------+-------+
-                                  
-         v --------------------- |
-                                
-+----------------+      +----------------+
-|    DATASET     |----->|    WIKIDATA    |
-+--------+-------+      +--------+-------+
-                                  
-         v --------------------- |
-+----------------+      +----------------+
-|  PUBLICATION   |----->|    DEPOSIT     |
-|                |      |  (Mint PIDs)   |
-+----------------+      +----------------+
-</pre>
+Demo - [https://nfdi4culture.github.io/Baldessari/](https://nfdi4culture.github.io/Baldessari/). Exhibition - Baldessari: while something is happening here, something else is happening there : works 1988–1999. Sprengel Museum Hannover and the Staatliche Kunstsammlungen Dresden, 1999-2000
 :::
+
+---
+
+## OCR and AI LLM {.smaller}
+
+::::: columns
+::: {.column width="60%"}
+#### Open-weight model does OCR, guided by schemas, extract all 73 artworks from scan. Claude built Gravio UI built for manual review.
+<img src="images/ocr.png" title="OCR" alt="OCR scan of the exhibition catalogue" width="100%"/>
+:::
+
+::: {.column width="40%"}
+- Scan the printed catalogue
+- OCR extracts the text
+- AI LLM structures the entries
+- Check and correct manually
+- Data piped into Wikibase (Wikidata)
+- Only use Metadata and TDM permitted for research purposes 
+:::
+:::::
+
+---
+
+## Dear Curators - Thanks for All the Art! {.smaller}
+
+::::: columns
+#### Book Scanner at Hochschule Hannover Library
+::: {.column width="60%"}
+<img src="images/scanner.jpg" title="Scanner" alt="Scanner" width="60%"/>
+:::
+
+::: {.column width="40%"} 
+Art school libraries are one of the few places that have the current public records of exhibitions as print exhibition catalogues. This resource should be OCR scanned and made public for research and archival purposes. With AI LLM workflows this is now possible. 
+:::
+:::::
 
 ---
 
@@ -195,11 +113,10 @@ Go here: [https://nfdi4culture.github.io/John-Baldessari-Exhibition-Catalogue/](
 
 Catalogue of works by the artists John Baldessari shown in an art exhibition at the Sprengel Museum Hannover 26.9.1999 - 2.1.2000. The purpose of the prototype is to demonstrate how to catalogue artworks in an exhibition as Linked Open Data on Wikidata. In this instance an OCR scan is transfered to Wikidata and then ouput as a computationally reproducible Quarto publication.
 
-OCR workflow: Chloë Farr, orcid: 0009-0007-1146-6745
+OCR workflow: Chloë Farr, ORCID iD: 0009-0007-1146-6745
 
-Concept and execution: Simon Worthington, orcid: 0000-0002-8579-9717
+Concept and execution: Simon Worthington, ORCID iD: 0000-0002-8579-9717
 
 Thank you to the students of the Bachelor of Arts Information Management at Hochschule Hannover in the course [BIM-126-02 Data Science](https://www.hs-hannover.de/studium/studienangebot/bachelor/information-management/) (SoSe 2026)
 
-Contact: simon.worthington@tib.eu 
-
+Demo and Wikibase: [nfdi4culture.github.io/Baldessari/](https://nfdi4culture.github.io/Baldessari/) and [cps.tibwiki.io](https://cps.tibwiki.io). 

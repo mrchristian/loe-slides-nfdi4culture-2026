@@ -19,7 +19,7 @@ format:
     background-transition: fade
     width: 1050
     height: 700
-    margin: 0.1
+    margin: 0.02  
     min-scale: 0.2
     max-scale: 2.0
     controls: true

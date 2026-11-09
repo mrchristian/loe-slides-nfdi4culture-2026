@@ -1,7 +1,7 @@
 ---
 title: "Linked Open Exhibitions"
 subtitle: "Dear curators — thanks for all the art?"
-author: "Simon Worthington, Open Science Lab - TIB and Hochschule&nbsp;Hannover, ORCID&nbsp;iD:&nbsp;0009&#8209;0007&#8209;1146&#8209;6745; Chloë Farr, Open&nbsp;Science&nbsp;Lab - TIB and University of Victoria, ORCID iD: 0009&#8209;0007&#8209;1146&#8209;6745" 
+author: "Simon Worthington, Computational&nbsp;Publishing&nbsp;Service/NFDI4Culture, Open&nbsp;Science&nbsp;Lab - TIB, and Hochschule&nbsp;Hannover, ORCID&nbsp;iD:&nbsp;0009&#8209;0007&#8209;1146&#8209;6745; <br/>Chloë Farr, Open&nbsp;Science&nbsp;Lab - TIB and University of Victoria, ORCID iD: 0009&#8209;0007&#8209;1146&#8209;6745" 
 date: 2026-11-10
 footer: "[simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | DOI:&nbsp;[10.5281/zenodo.24053970](https://doi.org/10.5281/zenodo.24053970) | [CC-BY-SA&nbsp;4.0&nbsp;License](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---

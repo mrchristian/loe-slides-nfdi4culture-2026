@@ -114,12 +114,16 @@ This resource should be OCR scanned and made public for all. With AI LLM Open-We
 
 ## Info and credits {.smaller}
 
-Catalogue of works by the artists John Baldessari shown in an art exhibition at the Sprengel Museum Hannover 26.9.1999 - 2.1.2000. The purpose of the prototype is to demonstrate how to catalogue artworks in an exhibition as Linked Open Data on Wikidata. In this instance an OCR scan is transfered to Wikidata and then ouput as a computationally reproducible Quarto publication.
+Catalogue of works by the artists John Baldessari shown in an art exhibition at the Sprengel Museum Hannover 26.9.1999 - 2.1.2000.  
 
 OCR workflow: Chloë Farr, ORCID iD: 0009-0007-1146-6745
 
 Concept and execution: Simon Worthington, ORCID iD: 0000-0002-8579-9717
 
-Thank you to the students of the Bachelor of Arts Information Management at Hochschule Hannover in the course [BIM-126-02 Data Science](https://www.hs-hannover.de/studium/studienangebot/bachelor/information-management/) (SoSe 2026)
+Thank you to the students of the Bachelor of Arts Information Management at Hochschule Hannover [BIM-126-02 Data Science](https://www.hs-hannover.de/studium/studienangebot/bachelor/information-management/) (SoSe 2026)
 
 Demo and Wikibase: [nfdi4culture.github.io/Baldessari/](https://nfdi4culture.github.io/Baldessari/) and [cps.tibwiki.io](https://cps.tibwiki.io). 
+
+::: {style="text-align: center;"}
+<a href="https://nfdi4culture.github.io/Baldessari/"><img src="images/baldessari-qr.svg" title="QR code: Baldessari demo" alt="QR code linking to https://nfdi4culture.github.io/Baldessari/" width="15%"/></a>
+:::

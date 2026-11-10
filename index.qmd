@@ -60,12 +60,13 @@ flowchart LR
  - Mapped to CIDOC/AAT/Iconclass
  - Loaded on to Wikibase/Wikidata
  - Make publications or use on websites    
- - Source can be:
-   - Database
-   - OCR
-   - Manual entry
+ - Source can be: Database; OCR; Manual entry
 
+::: {style="text-align: center;"}
+<a href="https://nfdi4culture.github.io/Baldessari/"><img src="images/baldessari-qr.svg" title="QR code: Baldessari demo" alt="QR code linking to https://nfdi4culture.github.io/Baldessari/" width="25%"/></a>
 :::
+:::
+
 :::::
 
 ::: aside
@@ -78,14 +79,14 @@ Demo - [https://nfdi4culture.github.io/Baldessari/](https://nfdi4culture.github.
 
 ::::: columns
 ::: {.column width="60%"}
-#### Open-weight model does OCR, guided by schemas, extract all 73 artworks from scan. Claude built Gravio UI built for manual review.
+#### Tesseract OCR (can be Open-Weight LLM Model), guided by schemas, extract all 73 artworks from scan. Claude built Gravio UI built for manual review.
 <img src="images/ocr.png" title="OCR" alt="OCR scan of the exhibition catalogue" width="100%"/>
 :::
 
 ::: {.column width="40%"}
 - Scan the printed catalogue
 - OCR extracts the text
-- AI LLM structures the entries
+- AI LLM can structures the entries
 - Check and correct manually
 - Data piped into Wikibase (Wikidata)
 - Only use Metadata and TDM permitted for research purposes 
@@ -103,7 +104,9 @@ Demo - [https://nfdi4culture.github.io/Baldessari/](https://nfdi4culture.github.
 :::
 
 ::: {.column width="40%"} 
-Art school libraries are one of the few places that have the current public records of exhibitions as print exhibition catalogues. This resource should be OCR scanned and made public for research and archival purposes. With AI LLM workflows this is now possible. 
+Art and design school libraries are one of the few places that have the current public records of exhibitions as print exhibition catalogues. 
+
+This resource should be OCR scanned and made public for all. With AI LLM Open-Weight workflows and Open Science infrastructures this is now possible. 
 :::
 :::::
 
